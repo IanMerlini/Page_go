@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dados dos usuários</title>
+	<link rel="stylesheet" type="text/css" href="dados.css">
+
+</head>
+<body>
+	<h1>Dados dos usuários</h1>
+	<pre>
+{{.}}
+	</pre>
+	<form action="/" method="GET">
+		<input type="submit" value="Voltar">
+	</form>
+	<form action="/excluir" method="POST">
+		<input type="submit" value="Excluir arquivo de usuários">
+	</form>
+</body>
+</html>
